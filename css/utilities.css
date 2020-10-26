@@ -60,6 +60,20 @@ font-size: 4rem;
     text-align:center;
 }
 
+/* Text Color */
+ .text-primary {
+color: var(--primary-color);
+}
+
+.text-secondary{
+color: var(--secondary-color);
+}
+
+.text-dark {
+color: var(--dark-color);
+}
+
+
 /* Backgrounds & colored buttons*/
 .bg-primary, .btn-primary {
     background-color: var(--primary-color);
@@ -96,6 +110,28 @@ font-size: 4rem;
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+/* Alert */
+.alert{
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i{
+    margin-right: 10px;
+}
+
+.alert-success{
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error{
+    background-color: var(--error-color);
+    color: #fff;
 }
 
 .grid{
